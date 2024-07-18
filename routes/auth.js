@@ -30,7 +30,7 @@ router.post('/login', async (req, res) => {
             req.session.user_id = results[0].id;
             req.session.user_email = results[0].email;
             console.log('Inicio de sesión exitoso');
-            return res.redirect('/productos'); // Redirigir a la página de productos
+            return res.redirect('/productos'); 
         }
     });
 });

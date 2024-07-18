@@ -19,8 +19,7 @@ router.post('/contacto', [
     } else {
         res.send('Enviando...')
     }
-    // console.log(errors.array())
-    // console.log(req.body)
+    
 })
 
 export default router;

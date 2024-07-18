@@ -3,7 +3,7 @@ import connection from '../db.js';
 
 const router = Router();
 
-// Ruta para mostrar el formulario de creación de producto
+
 router.get('/productos/create', (req, res) => {
     res.render('productos/create', { values: {} });
 });
@@ -21,7 +21,7 @@ router.post('/productos/store', (req, res) => {
     });
 });
 
-// Ruta para mostrar la lista de productos
+
 router.get('/productos', (req, res) => {
     connection.query('SELECT * FROM products', (err, results) => {
         if (err) {
@@ -32,7 +32,7 @@ router.get('/productos', (req, res) => {
     });
 });
 
-// Ruta para mostrar el formulario de edición de producto
+
 router.get('/productos/:id/edit', (req, res) => {
     const { id } = req.params;
     connection.query('SELECT * FROM products WHERE id = ?', [id], (err, results) => {
@@ -44,7 +44,7 @@ router.get('/productos/:id/edit', (req, res) => {
     });
 });
 
-// Ruta para actualizar un producto
+
 router.put('/productos/update', (req, res) => {
     const { id, name, price, category, description } = req.body;
     const query = 'UPDATE products SET name = ?, price = ?, category = ?, description = ? WHERE id = ?';
@@ -57,7 +57,7 @@ router.put('/productos/update', (req, res) => {
     });
 });
 
-// Ruta para borrar un producto
+
 router.delete('/productos/:id/delete', (req, res) => {
     const { id } = req.params;
     connection.query('DELETE FROM products WHERE id = ?', [id], (err) => {

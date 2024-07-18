@@ -43,8 +43,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/', authRoutes);
-app.use('/', productoRoutes); // Asegúrate de que las rutas de productos estén siendo usadas aquí
-
+app.use('/', productoRoutes); 
 app.use((req, res, next) => {
     res.status(404).send('No encontrado');
 });
