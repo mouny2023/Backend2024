@@ -1,0 +1,9 @@
+{
+    "development": {
+      "username": "mouny2023",
+      "password": "GRUPO19",
+      "database": "mouny2023",
+      "host": "mysql-mouny2023.alwaysdata.net",
+      "dialect": "mysql"
+    }
+  }
