@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/legales.html"
+  status = 200
