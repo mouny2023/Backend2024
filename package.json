@@ -36,9 +36,10 @@
   "devDependencies": {
     "sass": "^1.75.0"
   },
-  "scripts": {
-    "dev": "node src/app.js",
-    "build": "echo 'No build step required'"
+ 
+    "scripts": {
+      "build": "node build.js"
+  
   },
   "type": "module"
 }
