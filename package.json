@@ -38,7 +38,7 @@
   },
   "scripts": {
     "build": "echo 'No build step required'",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "type": "module"
 }
