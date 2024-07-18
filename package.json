@@ -1,16 +1,16 @@
 {
-  "name": "tp-integrador-g19",
+  "name": "backend2024",
   "version": "1.0.0",
   "description": "Este es Trabajo Practico Integrador del Grupo 19 correspondiente al curso de Codo a Codo Full Stack Python comisión 24147",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mouny2023/tp-integrador-g19"
+    "url": "https://github.com/mouny2023/Backend2024"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mouny2023/tp-integrador-g19/issues"
+    "url": "https://github.com/mouny2023/Backend2024/issues"
   },
   "homepage": "",
   "dependencies": {
