@@ -37,8 +37,8 @@
     "sass": "^1.75.0"
   },
   "scripts": {
-    
-    "start": "node app.js"
+    "build": "echo 'No build step required'",
+    "start": "node server.js"
   },
   "type": "module"
 }
